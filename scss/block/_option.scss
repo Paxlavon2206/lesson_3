@@ -1,0 +1,147 @@
+.option__title {
+    width: 590px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #828282;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+
+.option__text {
+    width: 676px;
+    color: #828282;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.option__box {
+    display: flex;
+    width: 730px;
+    height: 49px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 83px;
+
+
+}
+
+.option__liners {
+    flex-grow: 1;
+    color: #747474;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+
+    &:nth-child(1) {
+        border-bottom: 5px solid #888;
+    }
+
+    &:nth-child(2) {
+        border-bottom: 2px solid #C8C8C8;
+    }
+
+    &:nth-child(3) {
+        border-bottom: 2px solid #C8C8C8;
+    }
+}
+
+
+.option__img_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    gap: 93px;
+}
+
+.option_img {
+    width: 318px;
+    height: 318px;
+}
+
+.option__content_text {
+    width: 635px;
+    color: #828282;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+
+}
+
+.option__subtitle {
+    color: #828282;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 25px;
+}
+
+.option__button {
+    cursor: pointer;
+    width: 160px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: #828282;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+    padding: 20px 26px;
+}
+
+@media screen and (max-width:680px) {
+
+    .option__title {
+        width: 311px;
+    }
+
+    .option__text {
+        width: 311px;
+    }
+
+    .option__box {
+        flex-direction: column;
+        row-gap: 24px;
+
+    }
+
+    .option__liners {
+        padding-bottom: 24px;
+    }
+
+    .option__img_block {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .option_img {
+        margin-top: 48px;
+        width: 257px;
+    }
+
+    .option__button {
+        display: none;
+    }
+
+    .option__subtitle {
+        max-width: 311px;
+    }
+
+    .option__content_text {
+        max-width: 311px;
+    }
+}
